@@ -8,7 +8,7 @@ config/*.json              # Arquivos de configuração sensíveis (ex.: credenc
 secrets.env                # Arquivo com variáveis de ambiente (ex.: chaves da API)
 
 # Virtualenv
-venv/                      # Ambiente virtual do Python
+.venv/                      # Ambiente virtual do Python
 
 # Dependências geradas
 __pycache__/               # Arquivos cache do Python
