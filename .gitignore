@@ -1,0 +1,16 @@
+# Geral
+*.log                      # Arquivos de log
+*.tmp                      # Arquivos temporários
+Thumbs.db                  # Arquivo Windows desnecessário
+
+# Credenciais e configurações sensíveis
+config/*.json              # Arquivos de configuração sensíveis (ex.: credenciais da API)
+secrets.env                # Arquivo com variáveis de ambiente (ex.: chaves da API)
+
+# Virtualenv
+venv/                      # Ambiente virtual do Python
+
+# Dependências geradas
+__pycache__/               # Arquivos cache do Python
+*.pyc                      # Arquivos compilados do Python
+*.pyo                      # Versão otimizada dos arquivos Python
